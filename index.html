@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>المساعد الذكي للمعلم — لا تشيل شغل المدرسة معك للبيت</title>
+<meta name="description" content="بوت داخل تيليجرام للمعلم: اختبارات من كتاب الوزارة، تصحيح بالتصوير، كشوف ورصد، ملف إنجاز، أوراق عمل وعروض. جرّبه مجانًا.">
+<meta property="og:title" content="المساعد الذكي للمعلم">
+<meta property="og:description" content="لا تشيل شغل المدرسة معك للبيت — اختبار، تصحيح، كشوف، ملف إنجاز… في بوت واحد داخل تيليجرام.">
+<meta property="og:image" content="poster.jpg">
+<meta name="theme-color" content="#1B3A33">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- TikTok Pixel: يُضاف رقم البكسل هنا بعد إنشائه (PIXEL_ID) -->
+<script>
+  window.PIXEL_ID = "";
+  if (window.PIXEL_ID) {
+    !function (w, d, t) { w.TiktokAnalyticsObject = t; var ttq = w[t] = w[t] || []; ttq.methods = ["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"]; ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }; for (var i = 0; i < ttq.methods.length; i++) ttq.setAndDefer(ttq, ttq.methods[i]); ttq.instance = function (t) { for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++) ttq.setAndDefer(e, ttq.methods[n]); return e }; ttq.load = function (e, n) { var r = "https://analytics.tiktok.com/i18n/pixel/events.js"; ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = r, ttq._t = ttq._t || {}, ttq._t[e] = +new Date, ttq._o = ttq._o || {}, ttq._o[e] = n || {}; var o = d.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = r + "?sdkid=" + e + "&lib=" + t; var a = d.getElementsByTagName("script")[0]; a.parentNode.insertBefore(o, a) }; ttq.load(window.PIXEL_ID); ttq.page(); }(window, document, "ttq");
+  }
+</script>
+<style>
+:root{--ink:#17352F;--green:#1B3A33;--green2:#234A41;--gold:#F0B83C;--paper:#FBF8EF;--muted:#5C6F69;--tg:#2AABEE;--line:#E3E9E6}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Readex Pro',Tahoma,sans-serif;background:#F4F7F5;color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:560px;margin:0 auto;padding:0 18px}
+/* البطل */
+.hero{background:radial-gradient(ellipse at 85% 10%,var(--green2),transparent 60%),var(--green);color:#EEF4F1;padding:26px 0 30px;border-radius:0 0 28px 28px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px;opacity:.95}
+.brand .lg{width:36px;height:36px;border-radius:11px;background:var(--gold);display:flex;align-items:center;justify-content:center;font-size:20px}
+.pill{display:inline-block;margin-top:22px;background:rgba(240,184,60,.14);border:1.5px solid rgba(240,184,60,.55);color:var(--gold);font-size:13px;font-weight:600;border-radius:30px;padding:4px 14px}
+h1{font-size:34px;line-height:1.2;margin:12px 0 10px;font-weight:700}
+h1 s{text-decoration-color:#FF5A4E;text-decoration-thickness:4px;color:#FFB3AC}
+h1 em{font-style:normal;color:var(--gold)}
+.lead{font-size:16px;color:#C9DAD4}
+.cta{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;margin-top:20px;background:var(--gold);color:var(--green);font-weight:700;font-size:19px;border-radius:16px;padding:16px;box-shadow:0 10px 24px rgba(0,0,0,.25);border:0;cursor:pointer}
+.cta:active{transform:scale(.98)}
+.cta .ic{width:28px;height:28px}
+.sub{font-size:13px;color:#BFD3CC;text-align:center;margin-top:10px}
+/* الفيديو */
+.video{margin:-4px auto 0;padding-top:22px}
+.video .frame{position:relative;width:min(300px,78vw);margin:0 auto;border-radius:30px;overflow:hidden;border:8px solid #0E0E0E;box-shadow:0 18px 40px rgba(0,0,0,.25);background:#000;aspect-ratio:9/16}
+.video video{width:100%;height:100%;display:block;object-fit:cover}
+.video p{text-align:center;color:var(--muted);font-size:13px;margin-top:10px}
+/* أقسام */
+section{padding:30px 0 6px}
+h2{font-size:23px;font-weight:700;margin-bottom:14px}
+h2 em{font-style:normal;color:#B07A0E}
+.stat{display:flex;gap:12px}
+.stat div{flex:1;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 12px;text-align:center}
+.stat b{display:block;font-size:30px;color:#E04B3F;line-height:1.1}
+.stat span{font-size:13px;color:var(--muted)}
+.src{font-size:11px;color:#8A9A95;margin-top:8px;text-align:center}
+.feats{display:grid;gap:10px}
+.f{display:flex;gap:14px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px}
+.f .i{flex:none;width:44px;height:44px;border-radius:13px;background:var(--gold);display:flex;align-items:center;justify-content:center;font-size:23px}
+.f b{display:block;font-size:16px}
+.f span{font-size:14px;color:var(--muted)}
+.steps{counter-reset:s;display:grid;gap:10px}
+.st{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:16px;padding:12px 14px;font-size:15px}
+.st:before{counter-increment:s;content:counter(s);flex:none;width:32px;height:32px;border-radius:50%;background:var(--green);color:var(--gold);font-weight:700;display:flex;align-items:center;justify-content:center}
+.tgbox{background:#EAF6FD;border:1px solid #BFE3F7;border-radius:16px;padding:14px;font-size:14px}
+.tgbox b{display:block;font-size:15px;margin-bottom:6px}
+.stores{display:flex;gap:8px;margin-top:10px}
+.stores a{flex:1;text-align:center;background:#fff;border:1px solid #BFE3F7;border-radius:12px;padding:10px 6px;font-weight:600;font-size:14px;color:#1479B0}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:8px}
+summary{font-weight:600;cursor:pointer;font-size:15px}
+details p{font-size:14px;color:var(--muted);margin-top:8px}
+.final{background:var(--green);color:#EEF4F1;border-radius:24px;padding:24px 18px;margin:30px 0 10px;text-align:center}
+.final h2{color:#fff}
+footer{text-align:center;font-size:12px;color:#8A9A95;padding:16px 0 90px}
+footer a{color:#1479B0}
+/* زر ثابت أسفل الشاشة */
+.sticky{position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(244,247,245,.94);backdrop-filter:blur(8px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s}
+.sticky.on{transform:none}
+.sticky .cta{margin:0;max-width:532px;margin-inline:auto;font-size:17px;padding:13px}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><span class="lg">🎓</span>المساعد الذكي للمعلم</div>
+    <span class="pill">📲 بوت داخل تيليجرام · لمعلمي السعودية</span>
+    <h1>لا <s>تشيل</s> شغل المدرسة<br><em>معك للبيت</em></h1>
+    <p class="lead">اختبار من كتاب الوزارة، تصحيح بالتصوير، كشوف ورصد، ملف إنجاز، أوراق عمل وعروض… كلها من جوالك، في مكان واحد.</p>
+    <a class="cta open-bot" href="#">
+      <svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.6 18.7 19.7c-.2 1.1-.9 1.4-1.8.9l-4.9-3.6-2.4 2.3c-.3.3-.5.5-1 .5l.3-5 9.1-8.2c.4-.4-.1-.6-.6-.2L6.2 13.4l-4.8-1.5c-1-.3-1.1-1 .2-1.5L20.6 3c.9-.3 1.6.2 1.3 1.6z"/></svg>
+      ابدأ مجانًا في تيليجرام
+    </a>
+    <p class="sub">🎁 تجربة مجانية · بلا تسجيل ولا بريد · يكفي حسابك في تيليجرام</p>
+  </div>
+</header>
+
+<div class="wrap video">
+  <div class="frame"><video src="demo.mp4" poster="poster.jpg" controls playsinline preload="none"></video></div>
+  <p>▶️ شاهد كيف يعمل في 40 ثانية</p>
+</div>
+
+<main class="wrap">
+  <section>
+    <h2>حسب الدراسات… <em>لست وحدك</em></h2>
+    <div class="stat">
+      <div><b>84٪</b><span>من المعلمين وقت الدوام لا يكفيهم للتصحيح والتحضير والأعمال الورقية</span></div>
+      <div><b>40٪</b><span>من وقت المعلم يذهب لمهام غير التدريس</span></div>
+    </div>
+    <p class="src">المصادر: Pew Research 2024 · مسح OECD TALIS (48 دولة) — أرقام دولية</p>
+  </section>
+
+  <section>
+    <h2>كل هذا <em>يشيله عنك</em></h2>
+    <div class="feats">
+      <div class="f"><span class="i">📝</span><div><b>اختبارات من كتاب الوزارة</b><span>تختار الدروس بضغطات، ويطلع جاهز بالترويسة مع نموذج الإجابة وجدول المواصفات.</span></div></div>
+      <div class="f"><span class="i">📸</span><div><b>تصحيح بالتصوير</b><span>ورقة تظليل لكل طالب باسمه… صوّر الأوراق، والدرجات تُرصد في الكشف وحدها.</span></div></div>
+      <div class="f"><span class="i">🔘</span><div><b>رصد المشاركة والحضور بضغطة</b><span>وأنت في الفصل، والكشف الرسمي يتحدّث تلقائيًا.</span></div></div>
+      <div class="f"><span class="i">📁</span><div><b>ملف الإنجاز</b><span>صوّر الشاهد ويوضع في عنصره من عناصر تقييم الأداء، واستلم ملفًا جاهزًا للطباعة.</span></div></div>
+      <div class="f"><span class="i">🧩</span><div><b>أوراق عمل وعروض تقديمية</b><span>لأي درس من كتابك: ورقة الطالب وورقة الحل، وعرض PowerPoint بملاحظات المعلم.</span></div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>تبدأ في <em>دقيقة</em></h2>
+    <div class="steps">
+      <div class="st">اضغط «ابدأ مجانًا» فيفتح البوت في تيليجرام</div>
+      <div class="st">اضغط START، ثم «🚀 ابدأ مجانًا»</div>
+      <div class="st">أجب عن 4 أسئلة سريعة… وجرّب أول خدمة فورًا</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="tgbox">
+      <b>📲 ما عندك تيليجرام؟</b>
+      حمّله مجانًا من متجر جوالك، سجّل برقمك، ثم ارجع لهذه الصفحة واضغط «ابدأ مجانًا».
+      <div class="stores">
+        <a href="https://apps.apple.com/app/telegram-messenger/id686449807" rel="noopener">App Store</a>
+        <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger" rel="noopener">Google Play</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>أسئلة سريعة</h2>
+    <details><summary>هل هو مجاني؟</summary><p>التجربة مجانية للتعرّف على الخدمات، وكثير منها مجاني دائمًا (الكشوف والرصد والحضور وإضافة الشواهد). والباقات للفصل الدراسي كاملًا لمن أراد المزيد.</p></details>
+    <details><summary>هل يحتاج تطبيقًا أو حسابًا جديدًا؟</summary><p>لا. يكفي تيليجرام الموجود على جوالك أو جهازك، بلا بريد ولا كلمة مرور.</p></details>
+    <details><summary>هل هو تابع لوزارة التعليم؟</summary><p>لا، خدمة مستقلة تساعد المعلم في أعماله. وتراجع كل ما يُنشئه قبل اعتماده.</p></details>
+    <details><summary>بياناتي وبيانات طلابي؟</summary><p>تُستخدم لتقديم الخدمة لك فقط، ولا تُباع ولا تُشارك. وتستطيع حذفها كاملة متى شئت.</p></details>
+  </section>
+
+  <div class="final">
+    <h2>ارتاح… وخلّ الباقي علينا</h2>
+    <a class="cta open-bot" href="#">ابدأ مجانًا في تيليجرام</a>
+  </div>
+</main>
+
+<footer>
+  للمساعدة: <a href="https://wa.me/966555379597" rel="noopener">واتساب 0555379597</a> · © المساعد الذكي للمعلم
+</footer>
+
+<div class="sticky" id="sticky"><a class="cta open-bot" href="#">ابدأ مجانًا في تيليجرام</a></div>
+
+<script>
+  // المصدر من رابط الإعلان (?src=ttads) يصل للبوت ليُحتسب في لوحة المصادر؛ الافتراضي lp
+  var src = (new URLSearchParams(location.search).get("src") || "lp").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 20) || "lp";
+  var BOT = "smart_teacher_assistant_sa_bot";
+  var url = "https://t.me/" + BOT + "?start=src_" + src;
+  document.querySelectorAll(".open-bot").forEach(function (a) {
+    a.href = url;
+    a.addEventListener("click", function () {
+      try { if (window.ttq && window.PIXEL_ID) ttq.track("ClickButton", { content_name: "open_bot" }); } catch (e) {}
+    });
+  });
+  // الزر الثابت يظهر بعد تجاوز زر البطل
+  var hero = document.querySelector(".hero .cta"), sticky = document.getElementById("sticky");
+  new IntersectionObserver(function (es) { sticky.classList.toggle("on", !es[0].isIntersecting); }).observe(hero);
+</script>
+</body>
+</html>
